@@ -47,11 +47,11 @@ export default function Search() {
 						value={value}
 						onChange={handleChange}
 						type="text"
-						placeholder="enter address"
+						placeholder="Enter address or ENS"
 					></input>
 				) : (
 					<div value={value} onClick={handleClick}>
-						Click here to enter search query:
+						Click here to enter an address or ENS:
 					</div>
 				)}
 			</form>
