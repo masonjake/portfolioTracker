@@ -1,5 +1,4 @@
 import './App.css';
-import Balance from './components/Balance';
 import Search from './components/search';
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
 		<>
 			<div>Hello!</div>
 			<Search></Search>
-			<Balance></Balance>
 		</>
 	);
 }
